@@ -1,0 +1,103 @@
+/*************************
+GENERAL
+*************************/
+
+body {
+  font-family: verdana;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/*************************
+HEADING
+*************************/
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  width: 45%;
+  background-color: #e3f7e3;
+  padding: 0 2.5%;
+}
+
+
+
+
+
+/*************************
+NAVIGATION
+*************************/
+
+
+/*************************
+FOOTER
+*************************/
+
+
+/*************************
+PAGE: HOME
+*************************/
+
+
+/*************************
+PAGE: SOURDOUGH STARTER
+*************************/
+
+
+
+/*************************
+PAGE: BAKER'S PERCENTAGE
+*************************/
+
+
+/*************************
+PAGE: RECIPES
+*************************/
+
+
+/*************************
+PAGE: DOUGH MAKING
+*************************/
+
+
+/*************************
+COLORS
+*************************/
+
+header {
+  background: #b1e2b4;
+}
+
+nav {
+  background: #b1e2b4;
+}
+
+nav ul li a {
+  color: #fa9757;
+}

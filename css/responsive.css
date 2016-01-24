@@ -1,0 +1,89 @@
+@media screen and (min-width: 660px) {
+  /*************************
+  GENERAL
+  *************************/
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  p, ul li, ol li, table, td, th {
+    font-size: 1em;
+  }
+
+
+
+
+
+  /*************************
+  HEADING
+  *************************/
+
+  #logo {
+    padding: 1% 25%;
+  }
+
+  #mobileHeaderPic {
+    display: none;
+  }
+
+  #desktopHeaderPic {
+    display: inline-block;
+  }
+
+  #desktopHeaderPic ul {
+    margin: 0 2.5%;
+    padding: 0;
+    list-style: none;
+  }
+
+  #desktopHeaderPic ul li {
+    float: left;
+    width: 20%;
+    margin: 2.5%;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    padding: 0 5% 2.5%;
+  }
+
+
+
+	/*************************
+	NAVIGATION
+	*************************/
+
+  nav li {
+    font-size: .9em;
+  }
+
+
+
+  /*************************
+  ARTICLE
+  *************************/
+
+  .textImageRight {
+    margin: 15px 0 15px 15px;
+  }
+
+  .textImageLeft {
+    margin: 15px 15px 15px 0;
+  }
+
+  /*************************
+  GALLERY
+  *************************/
+
+  .gallery li {
+    width: 28.3333%;
+  }
+
+
+
+}

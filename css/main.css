@@ -73,7 +73,6 @@ header h1 {
 
 
 
-
 /*************************
 NAVIGATION
 *************************/
@@ -107,23 +106,23 @@ article {
   padding: 0 10%;
 }
 
-.textImageRight {
-  margin: 0 5% 5%;
-  float: right;
-  font-size: 0.6em;
-  text-align: center;  
-}
-
-.textImageLeft {
-  margin: 0 5% 5%;
-  float: left;
-  font-size: 0.6em;
-  text-align: center;
-}
-
 #timeStamp {
   font-size: 0.6em;
   text-align: center;
+}
+
+.textImageRight {
+  font-size: 0.6em;
+  text-align: center;
+  float: right;
+  margin: 0 10px 10px 10px;
+}
+
+.textImageLeft {
+  font-size: 0.6em;
+  text-align: center;
+  float: left;
+  margin: 0 10px 10px 10px;
 }
 
 
@@ -142,49 +141,15 @@ footer {
 
 
 /*************************
-PAGE: IMAGES
+IMAGES
 *************************/
 
-#wheatFlour {
-  max-width: 350px;
-  margin: 0;
-}
-#wonderBread,#sourdoughBoule,#wheatField,#scale,#starterRipe,#starterFed,#starterContainer {
+#wonderBread,#sourdoughBoule,#wheatField,#scale,#starterRipe,#starterFed,#starterContainer,#wheatFlour,#bobsRedMill {
   max-width: 256px;
   margin: 0;
 }
-#bobsRedMill {
-  max-width: 152px;
-  margin: 0;
-}
 
 
-
-/*************************
-PAGE: HOME
-*************************/
-
-
-
-/*************************
-PAGE: SOURDOUGH STARTER
-*************************/
-
-
-
-/*************************
-PAGE: BAKER'S PERCENTAGE
-*************************/
-
-
-/*************************
-PAGE: RECIPES
-*************************/
-
-
-/*************************
-PAGE: DOUGH MAKING
-*************************/
 
 /*************************
 PAGE: PHOTO GALLERY
@@ -212,6 +177,7 @@ PAGE: PHOTO GALLERY
   width: 45%;
   margin: 2.5%;
 }
+
 
 
 /*************************

@@ -4,8 +4,10 @@ GENERAL
 
 body {
   font-family: verdana;
+  font-size: 1em;
   margin: 0;
   padding: 0;
+
 }
 
 img {
@@ -24,11 +26,11 @@ h2 {
   text-align: center;
 }
 
-p {
-  font-size: 0.9em;
+p, .contentList {
+  line-height: 1.5;
 }
 
-ul li, ol li {
+p, ul li, ol li {
   font-size: 0.9em;
 }
 
@@ -39,7 +41,8 @@ table, td, th {
 }
 
 table {
-  width: 100%
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 
@@ -104,6 +107,13 @@ ARTICLE
 
 article {
   padding: 0 10%;
+}
+
+#backToTop {
+  font-size: .8em;
+  text-align: center;
+  clear: both;
+  margin-bottom: 10px;
 }
 
 #timeStamp {

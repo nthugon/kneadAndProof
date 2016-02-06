@@ -67,20 +67,7 @@
   GENERAL
   *************************/
 
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.25em;
-  }
-
-  p, ul li, ol li, table, td, th {
-    font-size: 1em;
-  }
-
   header h1 {
-    font-size: 1.5em;
     padding: 0 5% 2.5%;
   }
 
@@ -90,10 +77,6 @@
 	NAVIGATION
 	*************************/
 
-  nav li {
-    font-size: .9em;
-  }
-
 
 
   /*************************
@@ -101,14 +84,12 @@
   *************************/
 
   .textImageRight {
-    font-size: 0.6em;
     text-align: center;
     float: right;
     margin: 15px 0 15px 15px;
   }
 
   .textImageLeft {
-    font-size: 0.6em;
     text-align: center;
     float: left;
     margin: 15px 15px 15px 0;

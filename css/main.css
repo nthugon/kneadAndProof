@@ -3,8 +3,7 @@ GENERAL
 *************************/
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1em;
+  font-family: Verdana, Geneva, sans-serif;
   margin: 0;
   padding: 0;
 
@@ -15,27 +14,20 @@ img {
 }
 
 h1 {
-  font-size: 1.1em;
   text-align: center;
 }
 
 h2 {
-  font-size: 1em;
   text-align: center;
 }
 
 p, .contentList {
-  line-height: 1.75;
-}
-
-p, ul li, ol li {
-  font-size: 0.9em;
+  line-height: 1.5;
 }
 
 table, td, th {
   border: 1px solid #151515;
   border-collapse: collapse;
-  font-size: .9em;
 }
 
 table {
@@ -43,6 +35,44 @@ table {
   margin-bottom: 10px;
 }
 
+
+
+/*************************
+FONT-SIZE
+*************************/
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+nav li {
+  font-size: 0.8em;
+}
+
+.textImageRight,
+.textImageLeft {
+  font-size: 0.7em;
+}
+
+.backToTop {
+  font-size: 0.8em;
+}
+
+.timeStamp {
+  font-size: 0.7em;
+}
+
+footer {
+  font-size: 0.7em;
+}
 
 
 /*************************
@@ -94,7 +124,6 @@ nav li {
   display: inline-block;
   padding: 0 10px;
   margin: 0;
-  font-size: .8em;
 }
 
 
@@ -107,30 +136,26 @@ article {
   padding: 0 10%;
 }
 
-#backToTop {
-  font-size: .8em;
-  text-align: center;
-  clear: both;
-  margin-bottom: 10px;
-}
-
-#timeStamp {
-  font-size: 0.6em;
-  text-align: center;
-}
-
 .textImageRight {
-  font-size: 0.6em;
   text-align: center;
   float: right;
   margin: 0 10px 10px 10px;
 }
 
 .textImageLeft {
-  font-size: 0.6em;
   text-align: center;
   float: left;
   margin: 0 10px 10px 10px;
+}
+
+.backToTop {
+  text-align: center;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.timeStamp {
+  text-align: center;
 }
 
 
@@ -140,7 +165,6 @@ FOOTER
 *************************/
 
 footer {
-  font-size: 0.8em;
   text-align: center;
   padding: 0 0 5px;
   clear: both;

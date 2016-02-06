@@ -45,12 +45,20 @@ html {
   font-size: 100%;
 }
 
-h1 {
+header h1 {
   font-size: 1.2em;
 }
 
-h2 {
+h1 {
   font-size: 1.1em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+p, .contentList {
+  font-size: 0.9em;
 }
 
 nav li {

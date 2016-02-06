@@ -3,7 +3,7 @@ GENERAL
 *************************/
 
 body {
-  font-family: verdana;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1em;
   margin: 0;
   padding: 0;
@@ -16,18 +16,16 @@ img {
 
 h1 {
   font-size: 1.1em;
-  font-family: verdana;
   text-align: center;
 }
 
 h2 {
   font-size: 1em;
-  font-family: verdana;
   text-align: center;
 }
 
 p, .contentList {
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 p, ul li, ol li {

@@ -183,9 +183,25 @@ footer {
 IMAGES
 *************************/
 
-#wonderBread,#sourdoughBoule,#wheatField,#scale,#starterRipe,#starterFed,#starterContainer,#wheatFlour,#bobsRedMill {
+#wonderBread,
+#sourdoughBoule,
+#wheatField,
+#scale,
+#starterRipe,
+#starterFed,
+#starterContainer,
+#wheatFlour,
+#bobsRedMill {
   max-width: 256px;
   margin: 0;
+}
+
+#mobileHeaderPic img,
+#desktopHeaderPic img,
+.textImageRight img,
+.textImageLeft img,
+.gallery img {
+  border-radius: 5%;
 }
 
 

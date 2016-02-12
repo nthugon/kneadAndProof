@@ -12,10 +12,7 @@ img {
   max-width: 100%;
 }
 
-h1 {
-  text-align: center;
-}
-
+h1,
 h2 {
   text-align: center;
 }
@@ -24,7 +21,9 @@ p, .contentList {
   line-height: 2;
 }
 
-table, td, th {
+table,
+td,
+th {
   border: 1px solid #151515;
   border-collapse: collapse;
 }
@@ -60,26 +59,18 @@ p, .contentList {
   font-size: 0.9em;
 }
 
-nav li {
-  font-size: 0.8em;
-}
-
-.textImageRight,
-.textImageLeft {
-  font-size: 0.7em;
-}
-
+nav li,
 .backToTop {
   font-size: 0.8em;
 }
 
-.timeStamp {
-  font-size: 0.7em;
-}
-
+.textImageRight,
+.textImageLeft,
+.timeStamp,
 footer {
   font-size: 0.7em;
 }
+
 
 
 /*************************
@@ -163,6 +154,10 @@ article {
 
 .timeStamp {
   text-align: center;
+}
+
+.recipe {
+  border-bottom: 1px solid #fa9757;
 }
 
 

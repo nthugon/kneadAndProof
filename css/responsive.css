@@ -18,7 +18,15 @@
   IMAGES
   *************************/
 
-  #wonderBread,#sourdoughBoule,#wheatField,#scale,#starterRipe,#starterFed,#starterContainer,#wheatFlour,#bobsRedMill {
+  #wonderBread,
+  #sourdoughBoule,
+  #wheatField,
+  #scale,
+  #starterRipe,
+  #starterFed,
+  #starterContainer,
+  #wheatFlour,
+  #bobsRedMill {
     max-width: 150px;
     margin: 0;
   }
@@ -61,6 +69,23 @@
     padding: 0 5% 2.5%;
   }
 
+  /*************************
+  IMAGES
+  *************************/
+
+  #wonderBread,
+  #sourdoughBoule,
+  #wheatField,
+  #scale,
+  #starterRipe,
+  #starterFed,
+  #starterContainer,
+  #wheatFlour,
+  #bobsRedMill {
+    max-width: 200px;
+    margin: 0;
+  }
+
 }
 
 
@@ -74,16 +99,6 @@
   html {
     font-size: 120%;
   }
-
-  
-
-
-
-	/*************************
-	NAVIGATION
-	*************************/
-
-
 
   /*************************
   ARTICLE
@@ -101,18 +116,22 @@
     margin: 15px 15px 15px 0;
   }
 
-
-
   /*************************
   IMAGES
   *************************/
 
-  #wonderBread,#sourdoughBoule,#wheatField,#scale,#starterRipe,#starterFed,#starterContainer,#wheatFlour,#bobsRedMill {
+  #wonderBread,
+  #sourdoughBoule,
+  #wheatField,
+  #scale,
+  #starterRipe,
+  #starterFed,
+  #starterContainer,
+  #wheatFlour,
+  #bobsRedMill {
     max-width: 256px;
     margin: 0;
   }
-
-
 
   /*************************
   GALLERY

@@ -49,24 +49,39 @@
     display: none;
   }
 
-  #desktopHeaderPic {
-    display: inline-block;
+  #mobileNav {
+    display: none;
   }
 
-  #desktopHeaderPic ul {
-    margin: 1% 2.5% 0;
+  #desktopNav {
+    display: inline-block;
+    background-color: #e3f7e3;
+    border-top: 1px solid #fa9757;
+    border-bottom: 1px solid #fa9757;
+  }
+
+  #desktopNav ul {
+    margin: 1% 1% 0;
     padding: 0;
     list-style: none;
   }
 
-  #desktopHeaderPic ul li {
+  #desktopNav ul li {
     float: left;
-    width: 20%;
-    margin: 2.5%;
+    width: 18%;
+    margin: 1% 1% .5%;
+  }
+
+  #desktopNav ul li p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 0.7em;
+    line-height: 1;
   }
 
   header h1 {
-    padding: 0 5% 2.5%;
+    padding: 2% 5% 2.5%;
   }
 
   /*************************

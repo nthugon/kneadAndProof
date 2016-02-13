@@ -96,7 +96,7 @@ header h1 {
   margin: 0;
 }
 
-#desktopHeaderPic {
+#desktopNav {
   display: none;
 }
 
@@ -192,7 +192,7 @@ IMAGES
 }
 
 #mobileHeaderPic img,
-#desktopHeaderPic img,
+#desktopNav img,
 .textImageRight img,
 .textImageLeft img,
 .gallery img {

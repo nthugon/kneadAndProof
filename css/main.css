@@ -131,7 +131,8 @@ ARTICLE
 *************************/
 
 article {
-  padding: 0 10%;
+  padding: 1px 10%;
+  margin: 0;
 }
 
 .textImageRight {
@@ -156,10 +157,6 @@ article {
   text-align: center;
 }
 
-.recipe {
-  border-bottom: 1px solid #fa9757;
-}
-
 
 
 /*************************
@@ -168,7 +165,7 @@ FOOTER
 
 footer {
   text-align: center;
-  padding: 0 0 5px;
+  padding: 1px 0;
   clear: both;
 }
 
@@ -246,7 +243,6 @@ body {
 
 header {
   background: #b1e2b4;
-  border-bottom: 2px solid #fa9757;
 }
 
 nav {
@@ -268,7 +264,10 @@ a:link, a:visited {
   color: #fa9757;
 }
 
+.recipeBlue {
+  background-color: #b1e2b4;
+}
+
 footer {
   background: #b1e2b4;
-  border-top: 2px solid #fa9757;
 }

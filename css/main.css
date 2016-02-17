@@ -12,6 +12,10 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  padding-top: 2%;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -59,7 +63,7 @@ p, .contentList {
   font-size: 0.9em;
 }
 
-nav li,
+#mobileNav li,
 .backToTop {
   font-size: 0.8em;
 }
@@ -84,11 +88,11 @@ header {
 
 header h1 {
   margin: 0;
-  padding: 0 5% 5%;
+  padding: 0 5% 3%;
 }
 
 #logo {
-  padding: 2.5% 5%;
+  padding: 2.5% 5% 1%;
 }
 
 #mobileHeaderPic {
@@ -106,19 +110,19 @@ header h1 {
 NAVIGATION
 *************************/
 
-nav {
+#mobileNav {
   text-align: center;
   margin: 0;
   padding: 0 0 5px;
 }
 
-nav ul {
+#mobileNav ul {
   list-style: none;
   margin: 0;
   padding: 2px 0 0 0;
 }
 
-nav li {
+#mobileNav li {
   display: inline-block;
   padding: 0 10px;
   margin: 0;
@@ -204,13 +208,7 @@ PAGE: PHOTO GALLERY
 
 #wrapper {
   margin: 0;
-  padding: 2.5%;
-}
-
-#wrapper h2 {
-  clear: both;
-  margin: 0;
-  padding: 0;
+  padding: 0 2.5%;
 }
 
 .gallery {
@@ -245,10 +243,8 @@ header {
   background: #b1e2b4;
 }
 
-nav {
+#mobileNav {
   background: #e3f7e3;
-  border-top: 1px solid #fa9757;
-  border-bottom: 1px solid #fa9757;
 }
 
 nav ul li a:link, nav ul li a:visited {

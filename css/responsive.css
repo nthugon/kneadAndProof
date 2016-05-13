@@ -20,8 +20,6 @@
     margin: 10px 10px 5px 0;
   }
 
-
-
   /*************************
   IMAGES
   *************************/
@@ -37,6 +35,20 @@
   #bobsRedMill {
     max-width: 150px;
     margin: 0;
+  }
+
+}
+
+
+
+@media screen and (min-width: 415px) {
+
+  /**************************
+  GALLERY
+  **************************/
+
+  #overlay img {
+  margin-top: 35px;
   }
 
 }
@@ -110,17 +122,46 @@
     margin: 0;
   }
 
+  /**************************
+  GALLERY
+  **************************/
+
+  .gallery li {
+    width: 28.3333%;
+  }
+
 }
 
+
+
 @media screen and (min-width: 650px) {
+
+  /*************************
+  HEADING
+  *************************/
 
   header h1 {
     font-size: 1.6em;
   }
 
+  /**************************
+  GALLERY
+  **************************/
+
+  #wrapper {
+    padding: 0 1%;
+  }
+
+  .gallery li {
+    width: 23%;
+    margin: 1%;
+  }
+
+}
 
 
-@media screen and (min-width: 720px) {
+
+@media screen and (min-width: 737px) {
 
   /*************************
   GENERAL
@@ -173,9 +214,11 @@
   GALLERY
   *************************/
 
-  .gallery li {
-    width: 28.3333%;
-  }
+  #overlay img {
+  margin-top: 30px;
+  max-width: 90%;
+  max-height: 90%;
+  } 
 
 }
 
@@ -204,6 +247,14 @@
     font-size: 1.2em;
   }
 
+  /*************************
+  GALLERY
+  *************************/
+
+  .gallery li {
+    width: 18%;
+  } 
+
 }
 
 @media screen and (min-width: 1050px) {
@@ -212,10 +263,6 @@
   HEADING
   *************************/
 
-  /*header h1 {
-    font-size: 2.5em;
-  }*/
-
   #logo {
     padding: 1% 30% 0;
   }
@@ -223,6 +270,14 @@
   #desktopNav {
     margin: .5% 1.5% 0;
   }
+
+  /*************************
+  GALLERY
+  *************************/
+
+  .gallery li {
+    width: 14.6666667%;
+  }  
 
 }
 

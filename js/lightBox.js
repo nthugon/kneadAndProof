@@ -1,6 +1,3 @@
-//problem: user goes to a deadend when clicking on image
-//solution: use jquery to create a lightbox overlay of the large image
-
 //create variables for jquery objects
 var $overlay = $('<div id="overlay"></div>');
 var $image = $('<img>');

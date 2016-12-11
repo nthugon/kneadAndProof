@@ -1,11 +1,11 @@
-var nameInput = document.getElementById("recipeName");
-var flourInput = document.getElementById("Flour");
-var waterInput = document.getElementById("Water");
-var saltInput = document.getElementById("Salt");
-var starterInput = document.getElementById("Starter");
-var oilInput = document.getElementById("Oil");
-var convertButton = document.getElementById("recipeSubmit");
-var placeHolder = document.getElementById("placeHolder");
+var nameInput = document.getElementById("recipe-name");
+var flourInput = document.getElementById("flour");
+var waterInput = document.getElementById("water");
+var saltInput = document.getElementById("salt");
+var starterInput = document.getElementById("starter");
+var oilInput = document.getElementById("oil");
+var convertButton = document.getElementById("recipe-submit");
+var placeHolder = document.getElementById("place-holder");
 
 //find percentage of flour's weight for a given ingredient
 var getBakersPercent = function(ingWeight, flourWeight) {
@@ -38,7 +38,7 @@ var deleteRecipe = function() {
 
 //bind buttons of tasks to their corresponding functions
 var bindTaskEvents = function(recipe) {
-    var deleteButton = recipe.querySelector("button.deleteButton");
+    var deleteButton = recipe.querySelector("button.delete-button");
     //bind deleteRecipe to deleteButton
     deleteButton.onclick = deleteRecipe;
 };
@@ -69,7 +69,7 @@ var createRecipe = function() {
     //create a div for recipe
     var convertedRecipe = document.createElement("div");
     //add class to div
-    convertedRecipe.classList.add("recipeContainer");
+    convertedRecipe.classList.add("recipe-container");
     //create h2 for div
     var heading = document.createElement("h2");
     //save name input
@@ -84,7 +84,7 @@ var createRecipe = function() {
     //add ul
     var recipeList = document.createElement("ul");
     //add class to ul
-    recipeList.classList.add("convertedRecipeList");
+    recipeList.classList.add("converted-recipe-list");
     //add li to recipe ul containing name and converted weight of ingredient
     ingLine(flourInput);
     ingLine(waterInput);
@@ -98,7 +98,7 @@ var createRecipe = function() {
     var deleteButton = document.createElement("button");
     deleteButton.innerText = "Delete";
     //add class to button
-    deleteButton.className = "deleteButton";
+    deleteButton.className = "delete-button";
     //append delete button to div
     convertedRecipe.appendChild(deleteButton);
 

@@ -8,6 +8,8 @@
     font-size: 1.6em;
   }
 
+
+
   /*************************
   ARTICLE
   *************************/
@@ -19,6 +21,8 @@
   .textImageLeft {
     margin: 10px 10px 5px 0;
   }
+
+
 
   /*************************
   IMAGES
@@ -105,6 +109,8 @@
     font-size: 1.2em;
   }
 
+
+
   /*************************
   IMAGES
   *************************/
@@ -122,12 +128,30 @@
     margin: 0;
   }
 
+
+
   /**************************
   GALLERY
   **************************/
 
   .gallery li {
     width: 28.3333%;
+  }
+
+
+
+  /**************************
+  RECIPE CONVERTER
+  **************************/
+
+  #recipeSubmit,
+  .deleteButton {
+  width: 20%;
+  margin-left: -10%;
+  }
+
+  .recipeContainer {
+    margin-top: 7%;
   }
 
 }
@@ -144,6 +168,8 @@
     font-size: 1.6em;
   }
 
+
+
   /**************************
   GALLERY
   **************************/
@@ -155,6 +181,19 @@
   .gallery li {
     width: 23%;
     margin: 1%;
+  }
+
+
+
+  /**************************
+  RECIPE CONVERTER
+  **************************/
+
+  .recipeContainer {  
+    width: 80%;
+    margin-left: -40%;
+    padding-bottom: 3%;
+    margin-top: 5%;
   }
 
 }
@@ -177,6 +216,7 @@
   }
 
 
+
   /*************************
   ARTICLE
   *************************/
@@ -192,6 +232,8 @@
     float: left;
     margin: 15px 15px 15px 0;
   }
+
+
 
   /*************************
   IMAGES
@@ -209,6 +251,8 @@
     max-width: 256px;
     margin: 0;
   }
+
+
 
   /*************************
   GALLERY
@@ -247,12 +291,25 @@
     font-size: 1.2em;
   }
 
+
+
   /*************************
   GALLERY
   *************************/
 
   .gallery li {
     width: 18%;
+  }
+
+
+
+  /*************************
+  RECIPE CONVERTER
+  *************************/
+
+  .recipeContainer {  
+    width: 60%;
+    margin-left: -30%;
   } 
 
 }

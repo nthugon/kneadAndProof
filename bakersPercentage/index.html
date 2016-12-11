@@ -76,13 +76,38 @@
           </tr>
         </table>
         <p>To find an ingredient's Baker's Percentage, divide the ingredient's weight by the weight of the flour. Then, multiply the result by 100 to convert it to a percentage.</p>
-        <p>580 g of water &divide;<br>1000 g of flour =<br>.58</p>
-        <p>.58 &times; 100 = 58%</p>
+        <div class="equation">
+          <p>580 g of water &divide;<br>1000 g of flour =<br>.58</p>
+          <p>.58 &times; 100 = 58%</p>
+        </div>
         <p>Conversely, to calculate the weight of an ingredient from its Baker's Percentage, first divide the percentage by 100 to get a decimal, then multiply the decimal by the weight of the flour.</p>
-        <p>4% oil &divide; 100 = .04<br></p>
-        <p>.04 &times; 1000 g of flour =<br>40 g of oil</p>
+        <div class="equation">
+          <p>4% oil &divide; 100 = .04<br></p>
+          <p>.04 &times; 1000 g of flour =<br>40 g of oil</p>
+        </div>
         <p>Giving a value of 1000 grams to flour makes the math easy, and is also a good size batch of dough for home baking. This will make three pizzas or three loaves of bread. Also, if you are using a stand mixer, that is about all the dough the mixer wants to deal with at a time.</p>
         <p>Using Baker's Percentage does take a little while to get used to, but it is definitely worth the effort.</p>
+        <div id="content">
+          <h2>Convert Your Dough Recipe to Baker's Percentage</h2>
+          <p>Use the fields below to name your recipe and enter in the weight measurements of each ingredient. As long as the unit of measurement for each ingredient is the same (i.e. all in grams or all in ounces), your recipe will be sucessfully converted to baker's percentage. Your converted recipe will be displayed below.</p>
+          <div class="recipeContainer">
+            <label for="recipeName" class="boldType">Name of Recipe:</label>
+            <input type="text" id="recipeName">
+            <label for="Flour">Weight of Flour:</label>
+            <input type="text" id="Flour" class="weightInput">
+            <label for="Water">Weight of Water:</label>
+            <input type="text" id="Water" class="weightInput">
+            <label for="Salt">Weight of Salt:</label>
+            <input type="text" id="Salt" class="weightInput">
+            <label for="Starter">Weight of Starter:</label>
+            <input type="text" id="Starter" class="weightInput">
+            <label for="Oil">Weight of Oil:</label>
+            <input type="text" id="Oil" class="weightInput">
+            <button type="button" id="recipeSubmit">Convert!</button>
+          </div>
+          <div id="placeHolder">
+          </div>
+        </div>
         <div class="backToTop">
           <a href="#logo">Back to Top</a>
         </div>
@@ -93,5 +118,6 @@
     <footer>
       <p>&copy; 2016 Nathan Hugon.<br><a href="mailto:kneadandproof@gmail.com">kneadandproof@gmail.com</a></p>
     </footer>
+    <script src="../js/recipeMaker.js"></script>
   </body>
   </html>

@@ -1,45 +1,45 @@
 @media screen and (min-width: 360px) {
 
-  /*************************
-  HEADING
-  *************************/
+    /*************************
+    HEADING
+    *************************/
 
-  header h1 {
-    font-size: 1.6em;
-  }
-
-
-
-  /*************************
-  ARTICLE
-  *************************/
-
-  .textImageRight {
-    margin: 10px 0 5px 10px;
-  }
-
-  .textImageLeft {
-    margin: 10px 10px 5px 0;
-  }
+    header h1 {
+        font-size: 1.6em;
+    }
 
 
 
-  /*************************
-  IMAGES
-  *************************/
+    /*************************
+    ARTICLE
+    *************************/
 
-  #wonderBread,
-  #sourdoughBoule,
-  #wheatField,
-  #scale,
-  #starterRipe,
-  #starterFed,
-  #starterContainer,
-  #wheatFlour,
-  #bobsRedMill {
-    max-width: 150px;
-    margin: 0;
-  }
+    .textImageRight {
+        margin: 10px 0 5px 10px;
+    }
+
+    .textImageLeft {
+        margin: 10px 10px 5px 0;
+    }
+
+
+
+    /*************************
+    IMAGES
+    *************************/
+
+    #wonderBread,
+    #sourdoughBoule,
+    #wheatField,
+    #scale,
+    #starterRipe,
+    #starterFed,
+    #starterContainer,
+    #wheatFlour,
+    #bobsRedMill {
+        max-width: 150px;
+        margin: 0;
+    }
 
 }
 
@@ -47,13 +47,13 @@
 
 @media screen and (min-width: 415px) {
 
-  /**************************
-  GALLERY
-  **************************/
+    /**************************
+    GALLERY
+    **************************/
 
-  #overlay img {
-  margin-top: 35px;
-  }
+    #overlay img {
+    margin-top: 35px;
+    }
 
 }
 
@@ -61,98 +61,98 @@
 
 @media screen and (min-width: 480px) {
 
-  /*************************
-  HEADING
-  *************************/
+    /*************************
+    HEADING
+    *************************/
 
-  #logo {
-    padding: 1% 25%;
-  }
+    #logo {
+        padding: 1% 25%;
+    }
 
-  #mobileHeaderPic {
-    display: none;
-  }
+    #mobileHeaderPic {
+        display: none;
+    }
 
-  #mobileNav {
-    display: none;
-  }
+    #mobileNav {
+        display: none;
+    }
 
-  #desktopNav {
-    margin: 1.5% 1.5% 0;
-    display: inline-block;
-    background-color: #b1e2b4;
-  }
+    #desktopNav {
+        margin: 1.5% 1.5% 0;
+        display: inline-block;
+        background-color: #b1e2b4;
+    }
 
-  #desktopNav ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-  }
+    #desktopNav ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
 
-  #desktopNav ul li {
-    float: left;
-    width: 17%;
-    margin: 1.5% 1.5% 0;
-    padding: 0;
-  }
+    #desktopNav ul li {
+        float: left;
+        width: 17%;
+        margin: 1.5% 1.5% 0;
+        padding: 0;
+    }
 
-  #desktopNav ul li p {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 0.6em;
-    line-height: 1;
-  }
+    #desktopNav ul li p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 0.6em;
+        line-height: 1;
+    }
 
-  header h1 {
-    padding: 0 5%;
-    font-size: 1.2em;
-  }
-
-
-
-  /*************************
-  IMAGES
-  *************************/
-
-  #wonderBread,
-  #sourdoughBoule,
-  #wheatField,
-  #scale,
-  #starterRipe,
-  #starterFed,
-  #starterContainer,
-  #wheatFlour,
-  #bobsRedMill {
-    max-width: 200px;
-    margin: 0;
-  }
+    header h1 {
+        padding: 0 5%;
+        font-size: 1.2em;
+    }
 
 
 
-  /**************************
-  GALLERY
-  **************************/
+    /*************************
+    IMAGES
+    *************************/
 
-  .gallery li {
-    width: 28.3333%;
-  }
+    #wonderBread,
+    #sourdoughBoule,
+    #wheatField,
+    #scale,
+    #starterRipe,
+    #starterFed,
+    #starterContainer,
+    #wheatFlour,
+    #bobsRedMill {
+        max-width: 200px;
+        margin: 0;
+    }
 
 
 
-  /**************************
-  RECIPE CONVERTER
-  **************************/
+    /**************************
+    GALLERY
+    **************************/
 
-  #recipeSubmit,
-  .deleteButton {
-  width: 20%;
-  margin-left: -10%;
-  }
+    .gallery li {
+        width: 28.3333%;
+    }
 
-  .recipeContainer {
-    margin-top: 7%;
-  }
+
+
+    /**************************
+    RECIPE CONVERTER
+    **************************/
+
+    #recipeSubmit,
+    .deleteButton {
+    width: 20%;
+    margin-left: -10%;
+    }
+
+    .recipeContainer {
+        margin-top: 7%;
+    }
 
 }
 
@@ -160,41 +160,41 @@
 
 @media screen and (min-width: 650px) {
 
-  /*************************
-  HEADING
-  *************************/
+    /*************************
+    HEADING
+    *************************/
 
-  header h1 {
-    font-size: 1.6em;
-  }
-
-
-
-  /**************************
-  GALLERY
-  **************************/
-
-  #wrapper {
-    padding: 0 1%;
-  }
-
-  .gallery li {
-    width: 23%;
-    margin: 1%;
-  }
+    header h1 {
+        font-size: 1.6em;
+    }
 
 
 
-  /**************************
-  RECIPE CONVERTER
-  **************************/
+    /**************************
+    GALLERY
+    **************************/
 
-  .recipeContainer {  
-    width: 80%;
-    margin-left: -40%;
-    padding-bottom: 3%;
-    margin-top: 5%;
-  }
+    #wrapper {
+        padding: 0 1%;
+    }
+
+    .gallery li {
+        width: 23%;
+        margin: 1%;
+    }
+
+
+
+    /**************************
+    RECIPE CONVERTER
+    **************************/
+
+    .recipeContainer {  
+        width: 80%;
+        margin-left: -40%;
+        padding-bottom: 3%;
+        margin-top: 5%;
+    }
 
 }
 
@@ -202,139 +202,139 @@
 
 @media screen and (min-width: 737px) {
 
-  /*************************
-  GENERAL
-  *************************/
+    /*************************
+    GENERAL
+    *************************/
 
-  html {
-    font-size: 120%;
-  }
+    html {
+        font-size: 120%;
+    }
 
-  #desktopNav ul li p {
-    font-size: 0.7em;
-    padding: 0;
-  }
-
-
-
-  /*************************
-  ARTICLE
-  *************************/
-
-  .textImageRight {
-    text-align: center;
-    float: right;
-    margin: 15px 0 15px 15px;
-  }
-
-  .textImageLeft {
-    text-align: center;
-    float: left;
-    margin: 15px 15px 15px 0;
-  }
+    #desktopNav ul li p {
+        font-size: 0.7em;
+        padding: 0;
+    }
 
 
 
-  /*************************
-  IMAGES
-  *************************/
+    /*************************
+    ARTICLE
+    *************************/
 
-  #wonderBread,
-  #sourdoughBoule,
-  #wheatField,
-  #scale,
-  #starterRipe,
-  #starterFed,
-  #starterContainer,
-  #wheatFlour,
-  #bobsRedMill {
-    max-width: 256px;
-    margin: 0;
-  }
+    .textImageRight {
+        text-align: center;
+        float: right;
+        margin: 15px 0 15px 15px;
+    }
 
+    .textImageLeft {
+        text-align: center;
+        float: left;
+        margin: 15px 15px 15px 0;
+    }
 
 
-  /*************************
-  GALLERY
-  *************************/
 
-  #overlay img {
-  margin-top: 30px;
-  max-width: 90%;
-  max-height: 90%;
-  } 
+    /*************************
+    IMAGES
+    *************************/
+
+    #wonderBread,
+    #sourdoughBoule,
+    #wheatField,
+    #scale,
+    #starterRipe,
+    #starterFed,
+    #starterContainer,
+    #wheatFlour,
+    #bobsRedMill {
+        max-width: 256px;
+        margin: 0;
+    }
+
+
+
+    /*************************
+    GALLERY
+    *************************/
+
+    #overlay img {
+    margin-top: 30px;
+    max-width: 90%;
+    max-height: 90%;
+    } 
 
 }
 
 
 
 @media screen and (min-width: 900px) {
-  
-  /*************************
-  FONT SIZES
-  *************************/
+    
+    /*************************
+    FONT SIZES
+    *************************/
 
-  #desktopNav ul li p {
-    padding: 1% 0;
-    font-size: 0.8em;
-  }
+    #desktopNav ul li p {
+        padding: 1% 0;
+        font-size: 0.8em;
+    }
 
-  header h1 {
-    font-size: 2em;
-  }
+    header h1 {
+        font-size: 2em;
+    }
 
-  h1 {
-    font-size: 1.5em;
-  }
+    h1 {
+        font-size: 1.5em;
+    }
 
-  h2 {
-    font-size: 1.2em;
-  }
-
-
-
-  /*************************
-  GALLERY
-  *************************/
-
-  .gallery li {
-    width: 18%;
-  }
+    h2 {
+        font-size: 1.2em;
+    }
 
 
 
-  /*************************
-  RECIPE CONVERTER
-  *************************/
+    /*************************
+    GALLERY
+    *************************/
 
-  .recipeContainer {  
-    width: 60%;
-    margin-left: -30%;
-  } 
+    .gallery li {
+        width: 18%;
+    }
+
+
+
+    /*************************
+    RECIPE CONVERTER
+    *************************/
+
+    .recipeContainer {  
+        width: 60%;
+        margin-left: -30%;
+    } 
 
 }
 
 @media screen and (min-width: 1050px) {
 
-  /*************************
-  HEADING
-  *************************/
+    /*************************
+    HEADING
+    *************************/
 
-  #logo {
-    padding: 1% 30% 0;
-  }
+    #logo {
+        padding: 1% 30% 0;
+    }
 
-  #desktopNav {
-    margin: .5% 1.5% 0;
-  }
+    #desktopNav {
+        margin: .5% 1.5% 0;
+    }
 
-  /*************************
-  GALLERY
-  *************************/
+    /*************************
+    GALLERY
+    *************************/
 
-  .gallery li {
-    width: 14.6666667%;
-  }  
+    .gallery li {
+        width: 14.6666667%;
+    }  
 
 }
 

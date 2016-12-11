@@ -1,123 +1,123 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Knead and Proof: Baker's Percentage</title>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <div id="logo">
-        <a href="../index.html"><img src="../img/logoDark.png" alt="Knead and Proof Logo"></a>
-      </div>
-      <h1>The Art and Science of Sourdough Baking</h1>
-      <nav id="mobileNav">
-        <ul>
-          <li><a href="../sourdoughStarter/index.html">Starter</a></li>
-          <li><a href="../doughMaking/index.html">Dough Making</a></li>
-          <li><a href="../recipes/index.html">Recipes</a></li>
-          <li><a href="../bakersPercentage/index.html" class="current">Baker's %</a></li>
-          <li><a href="../photoGallery/index.html">Photo Gallery</a></li>
-        </ul>
-      </nav> 
-      <nav id="desktopNav">
-        <ul>
-          <li><a href="../sourdoughStarter/index.html"><img src="../img/starterRipe.jpeg" alt="Sourdough Starter"><p>Starter</p></a></li>
-          <li><a href="../doughMaking/index.html"><img src="../img/doughBowl.jpeg" alt="Dough Bowl"><p>Dough Making</p></a></li>
-          <li><a href="../recipes/index.html"><img src="../img/bakeLog.jpeg" alt="Recipes"><p>Recipes</p></a></li>
-          <li><a href="../bakersPercentage/index.html" class="current"><img src="../img/doughBallgrey.jpeg" alt="Baker's Percentage"><p>Baker's %</p></a></li>
-          <li><a href="../photoGallery/index.html"><img src="../img/stretch4.jpeg" alt="Slice of Pizza"><p>Photo Gallery</p></a></li> 
-        </ul>
-      </nav>
-      <div id="mobileHeaderPic">
-        <a href="../photoGallery/index.html"><img src="../img/sliceCrop.jpeg" alt="Slice of Pizza"></a>
-      </div>
-    </header>
-    <article>
-      <h1>Baker's Percentage</h1>
-        <p>Baking recipes are often presented in Baker's Percentage. These recipes list the ingredients in terms of their ratios to each other, rather than a specific amount of each ingredient. By listing the ingredients this way, the recipe is scale neutral and can be used to make a batch of dough of any size. Also, because you are looking at ratios rather than amounts, it is easier to see how recipes fundamentally differ from each other. Will this dough be firm or sticky? Will this dough be lean or rich? Will this dough rise slowly or quickly? These questions are easily answered by looking at a recipe given in Baker's Percentage.</p>
-      <h2>How Does Baker's Percentage Work?</h2>
-        <p>The basic premise of Baker's Percentage is that each ingredient's weight is listed as a percentage of the flour's weight, and the flour's weight is always listed as 100%. So, if a recipe uses the same weight of water as it does of flour, then both flour and water will be listed as 100%. If the recipe uses half the weight of water as it does of flour, then flour will be listed as 100% (it always is) and water will be listed as 50%. Because the percentages are showing the relationship of each individual ingredient to flour, the percentages do not add up to 100%. Do not try to add them to get a total of 100%.</p>
-        <p>Here is an example of a recipe listing both the Baker's Percentage and the weight of each ingredient.</p>
-        <table>
-          <tr>
-            <th>Ingredient</th>
-            <th>Weight</th>
-            <th>%</th>
-          </tr>
-          <tr>
-            <td>Flour</td>
-            <td>1000 grams</td>
-            <td>100%</td>
-          </tr>
-          <tr>
-            <td>Water</td>
-            <td>580 grams</td>
-            <td>58%</td>
-          </tr>
-          <tr>
-            <td>Oil</td>
-            <td>40 grams</td>
-            <td>4%</td>
-          </tr>
-          <tr>
-            <td>Salt</td>
-            <td>20 grams</td>
-            <td>2%</td>
-          </tr>
-          <tr>
-            <td>Starter</td>
-            <td>20 grams</td>
-            <td>2%</td>
-          </tr>
-        </table>
-        <p>To find an ingredient's Baker's Percentage, divide the ingredient's weight by the weight of the flour. Then, multiply the result by 100 to convert it to a percentage.</p>
-        <div class="equation">
-          <p>580 g of water &divide;<br>1000 g of flour =<br>.58</p>
-          <p>.58 &times; 100 = 58%</p>
-        </div>
-        <p>Conversely, to calculate the weight of an ingredient from its Baker's Percentage, first divide the percentage by 100 to get a decimal, then multiply the decimal by the weight of the flour.</p>
-        <div class="equation">
-          <p>4% oil &divide; 100 = .04<br></p>
-          <p>.04 &times; 1000 g of flour =<br>40 g of oil</p>
-        </div>
-        <p>Giving a value of 1000 grams to flour makes the math easy, and is also a good size batch of dough for home baking. This will make three pizzas or three loaves of bread. Also, if you are using a stand mixer, that is about all the dough the mixer wants to deal with at a time.</p>
-        <p>Using Baker's Percentage does take a little while to get used to, but it is definitely worth the effort.</p>
-        <div id="content">
-          <h2>Convert Your Dough Recipe to Baker's Percentage</h2>
-          <p>Use the fields below to name your recipe and enter in the weight measurements of each ingredient. As long as the unit of measurement for each ingredient is the same (i.e. all in grams or all in ounces), your recipe will be sucessfully converted to baker's percentage. Your converted recipe will be displayed below.</p>
-          <div class="recipeContainer">
-            <label for="recipeName" class="boldType">Name of Recipe:</label>
-            <input type="text" id="recipeName">
-            <label for="Flour">Weight of Flour:</label>
-            <input type="text" id="Flour" class="weightInput">
-            <label for="Water">Weight of Water:</label>
-            <input type="text" id="Water" class="weightInput">
-            <label for="Salt">Weight of Salt:</label>
-            <input type="text" id="Salt" class="weightInput">
-            <label for="Starter">Weight of Starter:</label>
-            <input type="text" id="Starter" class="weightInput">
-            <label for="Oil">Weight of Oil:</label>
-            <input type="text" id="Oil" class="weightInput">
-            <button type="button" id="recipeSubmit">Convert!</button>
-          </div>
-          <div id="placeHolder">
-          </div>
-        </div>
-        <div class="backToTop">
-          <a href="#logo">Back to Top</a>
-        </div>
-        <div class="timeStamp">
-          <p>Nathan Hugon. Published: <time datetime="2015-10-23">10/23/2015</time>.</p>
-        </div>
-    </article>
-    <footer>
-      <p>&copy; 2016 Nathan Hugon.<br><a href="mailto:kneadandproof@gmail.com">kneadandproof@gmail.com</a></p>
-    </footer>
-    <script src="../js/recipeMaker.js"></script>
-  </body>
-  </html>
+    <head>
+        <meta charset="utf-8">
+        <title>Knead and Proof: Baker's Percentage</title>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <a href="../index.html"><img src="../img/logoDark.png" alt="Knead and Proof Logo"></a>
+            </div>
+            <h1>The Art and Science of Sourdough Baking</h1>
+            <nav id="mobileNav">
+                <ul>
+                    <li><a href="../sourdoughStarter/index.html">Starter</a></li>
+                    <li><a href="../doughMaking/index.html">Dough Making</a></li>
+                    <li><a href="../recipes/index.html">Recipes</a></li>
+                    <li><a href="../bakersPercentage/index.html" class="current">Baker's %</a></li>
+                    <li><a href="../photoGallery/index.html">Photo Gallery</a></li>
+                </ul>
+            </nav> 
+            <nav id="desktopNav">
+                <ul>
+                    <li><a href="../sourdoughStarter/index.html"><img src="../img/starterRipe.jpeg" alt="Sourdough Starter"><p>Starter</p></a></li>
+                    <li><a href="../doughMaking/index.html"><img src="../img/doughBowl.jpeg" alt="Dough Bowl"><p>Dough Making</p></a></li>
+                    <li><a href="../recipes/index.html"><img src="../img/bakeLog.jpeg" alt="Recipes"><p>Recipes</p></a></li>
+                    <li><a href="../bakersPercentage/index.html" class="current"><img src="../img/doughBallgrey.jpeg" alt="Baker's Percentage"><p>Baker's %</p></a></li>
+                    <li><a href="../photoGallery/index.html"><img src="../img/stretch4.jpeg" alt="Slice of Pizza"><p>Photo Gallery</p></a></li> 
+                </ul>
+            </nav>
+            <div id="mobileHeaderPic">
+                <a href="../photoGallery/index.html"><img src="../img/sliceCrop.jpeg" alt="Slice of Pizza"></a>
+            </div>
+        </header>
+        <article>
+            <h1>Baker's Percentage</h1>
+                <p>Baking recipes are often presented in Baker's Percentage. These recipes list the ingredients in terms of their ratios to each other, rather than a specific amount of each ingredient. By listing the ingredients this way, the recipe is scale neutral and can be used to make a batch of dough of any size. Also, because you are looking at ratios rather than amounts, it is easier to see how recipes fundamentally differ from each other. Will this dough be firm or sticky? Will this dough be lean or rich? Will this dough rise slowly or quickly? These questions are easily answered by looking at a recipe given in Baker's Percentage.</p>
+            <h2>How Does Baker's Percentage Work?</h2>
+                <p>The basic premise of Baker's Percentage is that each ingredient's weight is listed as a percentage of the flour's weight, and the flour's weight is always listed as 100%. So, if a recipe uses the same weight of water as it does of flour, then both flour and water will be listed as 100%. If the recipe uses half the weight of water as it does of flour, then flour will be listed as 100% (it always is) and water will be listed as 50%. Because the percentages are showing the relationship of each individual ingredient to flour, the percentages do not add up to 100%. Do not try to add them to get a total of 100%.</p>
+                <p>Here is an example of a recipe listing both the Baker's Percentage and the weight of each ingredient.</p>
+                <table>
+                    <tr>
+                        <th>Ingredient</th>
+                        <th>Weight</th>
+                        <th>%</th>
+                    </tr>
+                    <tr>
+                        <td>Flour</td>
+                        <td>1000 grams</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>Water</td>
+                        <td>580 grams</td>
+                        <td>58%</td>
+                    </tr>
+                    <tr>
+                        <td>Oil</td>
+                        <td>40 grams</td>
+                        <td>4%</td>
+                    </tr>
+                    <tr>
+                        <td>Salt</td>
+                        <td>20 grams</td>
+                        <td>2%</td>
+                    </tr>
+                    <tr>
+                        <td>Starter</td>
+                        <td>20 grams</td>
+                        <td>2%</td>
+                    </tr>
+                </table>
+                <p>To find an ingredient's Baker's Percentage, divide the ingredient's weight by the weight of the flour. Then, multiply the result by 100 to convert it to a percentage.</p>
+                <div class="equation">
+                    <p>580 g of water &divide;<br>1000 g of flour =<br>.58</p>
+                    <p>.58 &times; 100 = 58%</p>
+                </div>
+                <p>Conversely, to calculate the weight of an ingredient from its Baker's Percentage, first divide the percentage by 100 to get a decimal, then multiply the decimal by the weight of the flour.</p>
+                <div class="equation">
+                    <p>4% oil &divide; 100 = .04<br></p>
+                    <p>.04 &times; 1000 g of flour =<br>40 g of oil</p>
+                </div>
+                <p>Giving a value of 1000 grams to flour makes the math easy, and is also a good size batch of dough for home baking. This will make three pizzas or three loaves of bread. Also, if you are using a stand mixer, that is about all the dough the mixer wants to deal with at a time.</p>
+                <p>Using Baker's Percentage does take a little while to get used to, but it is definitely worth the effort.</p>
+                <div id="content">
+                    <h2>Convert Your Dough Recipe to Baker's Percentage</h2>
+                    <p>Use the fields below to name your recipe and enter in the weight measurements of each ingredient. As long as the unit of measurement for each ingredient is the same (i.e. all in grams or all in ounces), your recipe will be sucessfully converted to baker's percentage. Your converted recipe will be displayed below.</p>
+                    <div class="recipeContainer">
+                        <label for="recipeName" class="boldType">Name of Recipe:</label>
+                        <input type="text" id="recipeName">
+                        <label for="Flour">Weight of Flour:</label>
+                        <input type="text" id="Flour" class="weightInput">
+                        <label for="Water">Weight of Water:</label>
+                        <input type="text" id="Water" class="weightInput">
+                        <label for="Salt">Weight of Salt:</label>
+                        <input type="text" id="Salt" class="weightInput">
+                        <label for="Starter">Weight of Starter:</label>
+                        <input type="text" id="Starter" class="weightInput">
+                        <label for="Oil">Weight of Oil:</label>
+                        <input type="text" id="Oil" class="weightInput">
+                        <button type="button" id="recipeSubmit">Convert!</button>
+                    </div>
+                    <div id="placeHolder">
+                    </div>
+                </div>
+                <div class="backToTop">
+                    <a href="#logo">Back to Top</a>
+                </div>
+                <div class="timeStamp">
+                    <p>Nathan Hugon. Published: <time datetime="2015-10-23">10/23/2015</time>.</p>
+                </div>
+        </article>
+        <footer>
+            <p>&copy; 2016 Nathan Hugon.<br><a href="mailto:kneadandproof@gmail.com">kneadandproof@gmail.com</a></p>
+        </footer>
+        <script src="../js/recipeMaker.js"></script>
+    </body>
+    </html>

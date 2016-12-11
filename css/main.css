@@ -3,54 +3,54 @@ GENERAL
 *************************/
 
 html {
-  -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 h1 {
-  padding-top: 2%;
+    padding-top: 2%;
 }
 
 h1,
 h2 {
-  text-align: center;
+    text-align: center;
 }
 
 p,
 .contentList {
-  line-height: 2;
+    line-height: 2;
 }
 
 a:link,
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .equation {
-    text-align: center;
-    border-radius: 15px;
+        text-align: center;
+        border-radius: 15px;
 }
 
 table {
-    width: 100%;
-    border-collapse: separate;
-    border-radius: 15 px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+        width: 100%;
+        border-collapse: separate;
+        border-radius: 15 px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
 }
 
 td,
 th {
-  text-align: center;
+    text-align: center;
 }
 
 
@@ -60,35 +60,35 @@ FONT-SIZE
 *************************/
 
 html {
-  font-size: 110%;
+    font-size: 110%;
 }
 
 header h1 {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 h1 {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 h2 {
-  font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 p, .contentList {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 #mobileNav li,
 .backToTop {
-  font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 .textImageRight,
 .textImageLeft,
 .timeStamp,
 footer {
-  font-size: 0.7em;
+    font-size: 0.7em;
 }
 
 
@@ -98,26 +98,26 @@ HEADING
 *************************/
 
 header {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header h1 {
-  margin: 0;
-  padding: 0 5% 3%;
+    margin: 0;
+    padding: 0 5% 3%;
 }
 
 #logo {
-  padding: 2.5% 5% 1%;
+    padding: 2.5% 5% 1%;
 }
 
 #mobileHeaderPic {
-  padding: 6% 10% 5%;
-  margin: 0;
+    padding: 6% 10% 5%;
+    margin: 0;
 }
 
 #desktopNav {
-  display: none;
+    display: none;
 }
 
 
@@ -127,21 +127,21 @@ NAVIGATION
 *************************/
 
 #mobileNav {
-  text-align: center;
-  margin: 0;
-  padding: 0 0 5px;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 5px;
 }
 
 #mobileNav ul {
-  list-style: none;
-  margin: 0;
-  padding: 2px 0 0 0;
+    list-style: none;
+    margin: 0;
+    padding: 2px 0 0 0;
 }
 
 #mobileNav li {
-  display: inline-block;
-  padding: 0 10px;
-  margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0;
 }
 
 
@@ -151,30 +151,30 @@ ARTICLE
 *************************/
 
 article {
-  padding: 1px 10%;
-  margin: 0;
+    padding: 1px 10%;
+    margin: 0;
 }
 
 .textImageRight {
-  text-align: center;
-  float: right;
-  margin: 0 10px 10px 10px;
+    text-align: center;
+    float: right;
+    margin: 0 10px 10px 10px;
 }
 
 .textImageLeft {
-  text-align: center;
-  float: left;
-  margin: 0 10px 10px 10px;
+    text-align: center;
+    float: left;
+    margin: 0 10px 10px 10px;
 }
 
 .backToTop {
-  text-align: center;
-  clear: both;
-  margin-bottom: 10px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 10px;
 }
 
 .timeStamp {
-  text-align: center;
+    text-align: center;
 }
 
 
@@ -188,74 +188,74 @@ RECIPE CONVERTER
 .weightInput,
 #recipeSubmit,
 .deleteButton {
-  -webkit-appearance: none;
-  position: relative;
-  left: 50%;
-  border-radius: 15px;
-  border: none;
+    -webkit-appearance: none;
+    position: relative;
+    left: 50%;
+    border-radius: 15px;
+    border: none;
 }
 
 .recipeContainer {
-  padding: 4% 0;
-  width: 100%;
-  margin-left: -50%;
-  margin-top: 10%;
-  margin-bottom: 2%;
+    padding: 4% 0;
+    width: 100%;
+    margin-left: -50%;
+    margin-top: 10%;
+    margin-bottom: 2%;
 }
 
 .recipeContainer h2 {
-  margin: 0 0 4%;
-  padding: 0;
+    margin: 0 0 4%;
+    padding: 0;
 }
 
 #recipeName {
-  width: 80%;
-  margin-left: -40%;
-  margin-bottom: 5%;
-  text-align: center;
+    width: 80%;
+    margin-left: -40%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .weightInput {
-  width: 40%;
-  margin-left: -20%;
-  margin-bottom: 2%;
-  text-align: center;
+    width: 40%;
+    margin-left: -20%;
+    margin-bottom: 2%;
+    text-align: center;
 }
 
 .recipeContainer label {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
 }
 
 input {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 #recipeSubmit,
 .deleteButton {
-  text-align: center;
-  padding: 0;
-  -webkit-appearance: none;
-  display: block;
-  margin-top: 3%;
-  width: 35%;
-  margin-left: -17.5%;
-  margin-bottom: 0;
-  outline: none;
-  transition: transform .5s;
+    text-align: center;
+    padding: 0;
+    -webkit-appearance: none;
+    display: block;
+    margin-top: 3%;
+    width: 35%;
+    margin-left: -17.5%;
+    margin-bottom: 0;
+    outline: none;
+    transition: transform .5s;
 }
 
 #recipeSubmit:hover, 
 .deleteButton:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .convertedRecipeList {
-  list-style: none;
-  text-align: center;
-  margin: 0 20% 5%;
-  padding: 5% 0;
-  border-radius: 15px;
+    list-style: none;
+    text-align: center;
+    margin: 0 20% 5%;
+    padding: 5% 0;
+    border-radius: 15px;
 }
 
 
@@ -265,9 +265,9 @@ FOOTER
 *************************/
 
 footer {
-  text-align: center;
-  padding: 1px 0;
-  clear: both;
+    text-align: center;
+    padding: 1px 0;
+    clear: both;
 }
 
 
@@ -285,8 +285,8 @@ IMAGES
 #starterContainer,
 #wheatFlour,
 #bobsRedMill {
-  max-width: 256px;
-  margin: 0;
+    max-width: 256px;
+    margin: 0;
 }
 
 #mobileHeaderPic img,
@@ -294,7 +294,7 @@ IMAGES
 .textImageRight img,
 .textImageLeft img,
 .gallery img {
-  border-radius: 5%;
+    border-radius: 5%;
 }
 
 
@@ -304,38 +304,38 @@ PAGE: PHOTO GALLERY
 *************************/
 
 #wrapper {
-  margin: 0;
-  padding: 0 2.5%;
+    margin: 0;
+    padding: 0 2.5%;
 }
 
 .gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
+    float: left;
+    width: 45%;
+    margin: 2.5%;
 }
 
 #overlay {
-  background: rgba(0,0,0,0.8);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: none;
-  text-align: center;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
 }
 
 #overlay img {
-  border-radius: 5%;
-  margin-top: 50%;
-  max-width: 80%;
-  max-height: 80%;
+    border-radius: 5%;
+    margin-top: 50%;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 
@@ -356,55 +356,55 @@ soft orange               #fa9757
 body,
 #mobileNav,
 .convertedRecipeList {
-  background-color: #e3f7e3;
+    background-color: #e3f7e3;
 }
 
 body {
-  color: #151515;
+    color: #151515;
 }
 
 header,
 .recipeContainer,
 .recipeBlue, 
 footer {
-  background-color: #b1e2b4;
+    background-color: #b1e2b4;
 }
 
 nav ul li a.current:link, a.current:visited {
-  color: #512a2c;
+    color: #512a2c;
 }
 
 a:link,
 a:visited,
 nav ul li a:link,
 nav ul li a:visited {
-  color: #fa9757;
+    color: #fa9757;
 }
 
 #recipeSubmit,
 .deleteButton {
-  background-color: #bdbdbd;
+    background-color: #bdbdbd;
 }
 
 input[type=text]:focus {
-  outline: none;
-  box-shadow: inset 0 0 5px 1px #fa9757;
+    outline: none;
+    box-shadow: inset 0 0 5px 1px #fa9757;
 }
 
 .equation,
 table {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 td, th {
-    border-left:solid #bdbdbd 1px;
-    border-top:solid #bdbdbd 1px;
+        border-left:solid #bdbdbd 1px;
+        border-top:solid #bdbdbd 1px;
 }
 
 th {
-    border-top: none;
+        border-top: none;
 }
 
 td:first-child, th:first-child {
-     border-left: none;
+         border-left: none;
 }

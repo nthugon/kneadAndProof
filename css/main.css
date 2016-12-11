@@ -26,7 +26,7 @@ h2 {
 }
 
 p,
-.contentList {
+.content-list {
     line-height: 2;
 }
 
@@ -36,16 +36,16 @@ a:visited {
 }
 
 .equation {
-        text-align: center;
-        border-radius: 15px;
+    text-align: center;
+    border-radius: 15px;
 }
 
 table {
-        width: 100%;
-        border-collapse: separate;
-        border-radius: 15 px;
-        -moz-border-radius: 15px;
-        -webkit-border-radius: 15px;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 15 px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
 }
 
 td,
@@ -75,18 +75,19 @@ h2 {
     font-size: 1.1em;
 }
 
-p, .contentList {
+p,
+.content-list {
     font-size: 1em;
 }
 
-#mobileNav li,
-.backToTop {
+#mobile-nav li,
+.back-to-top {
     font-size: 0.8em;
 }
 
-.textImageRight,
-.textImageLeft,
-.timeStamp,
+.text-image-right,
+.text-image-left,
+.time-stamp,
 footer {
     font-size: 0.7em;
 }
@@ -111,12 +112,12 @@ header h1 {
     padding: 2.5% 5% 1%;
 }
 
-#mobileHeaderPic {
+#mobile-header-pic {
     padding: 6% 10% 5%;
     margin: 0;
 }
 
-#desktopNav {
+#desktop-nav {
     display: none;
 }
 
@@ -126,19 +127,19 @@ header h1 {
 NAVIGATION
 *************************/
 
-#mobileNav {
+#mobile-nav {
     text-align: center;
     margin: 0;
     padding: 0 0 5px;
 }
 
-#mobileNav ul {
+#mobile-nav ul {
     list-style: none;
     margin: 0;
     padding: 2px 0 0 0;
 }
 
-#mobileNav li {
+#mobile-nav li {
     display: inline-block;
     padding: 0 10px;
     margin: 0;
@@ -155,25 +156,25 @@ article {
     margin: 0;
 }
 
-.textImageRight {
+.text-image-right {
     text-align: center;
     float: right;
     margin: 0 10px 10px 10px;
 }
 
-.textImageLeft {
+.text-image-left {
     text-align: center;
     float: left;
     margin: 0 10px 10px 10px;
 }
 
-.backToTop {
+.back-to-top {
     text-align: center;
     clear: both;
     margin-bottom: 10px;
 }
 
-.timeStamp {
+.time-stamp {
     text-align: center;
 }
 
@@ -183,11 +184,11 @@ article {
 RECIPE CONVERTER
 *************************/
 
-.recipeContainer,
-#recipeName,
-.weightInput,
-#recipeSubmit,
-.deleteButton {
+.recipe-container,
+#recipe-name,
+.weight-input,
+#recipe-submit,
+.delete-button {
     -webkit-appearance: none;
     position: relative;
     left: 50%;
@@ -195,7 +196,7 @@ RECIPE CONVERTER
     border: none;
 }
 
-.recipeContainer {
+.recipe-container {
     padding: 4% 0;
     width: 100%;
     margin-left: -50%;
@@ -203,26 +204,26 @@ RECIPE CONVERTER
     margin-bottom: 2%;
 }
 
-.recipeContainer h2 {
+.recipe-container h2 {
     margin: 0 0 4%;
     padding: 0;
 }
 
-#recipeName {
+#recipe-name {
     width: 80%;
     margin-left: -40%;
     margin-bottom: 5%;
     text-align: center;
 }
 
-.weightInput {
+.weight-input {
     width: 40%;
     margin-left: -20%;
     margin-bottom: 2%;
     text-align: center;
 }
 
-.recipeContainer label {
+.recipe-container label {
     display: block;
     text-align: center;
 }
@@ -231,8 +232,8 @@ input {
     -webkit-appearance: none;
 }
 
-#recipeSubmit,
-.deleteButton {
+#recipe-submit,
+.delete-button {
     text-align: center;
     padding: 0;
     -webkit-appearance: none;
@@ -245,12 +246,12 @@ input {
     transition: transform .5s;
 }
 
-#recipeSubmit:hover, 
-.deleteButton:hover {
+#recipe-submit:hover, 
+.delete-button:hover {
     transform: scale(1.1);
 }
 
-.convertedRecipeList {
+.converted-recipe-list {
     list-style: none;
     text-align: center;
     margin: 0 20% 5%;
@@ -276,23 +277,23 @@ footer {
 IMAGES
 *************************/
 
-#wonderBread,
-#sourdoughBoule,
-#wheatField,
+#wonder-bread,
+#sourdough-boule,
+#wheat-field,
 #scale,
-#starterRipe,
-#starterFed,
-#starterContainer,
-#wheatFlour,
-#bobsRedMill {
+#starter-ripe,
+#starter-fed,
+#starter-container,
+#wheat-flour,
+#bobs-red-mill {
     max-width: 256px;
     margin: 0;
 }
 
-#mobileHeaderPic img,
-#desktopNav img,
-.textImageRight img,
-.textImageLeft img,
+#mobile-header-pic img,
+#desktop-nav img,
+.text-image-right img,
+.text-image-left img,
 .gallery img {
     border-radius: 5%;
 }
@@ -354,8 +355,8 @@ soft orange               #fa9757
 *************************/
 
 body,
-#mobileNav,
-.convertedRecipeList {
+#mobile-nav,
+.converted-recipe-list {
     background-color: #e3f7e3;
 }
 
@@ -364,8 +365,8 @@ body {
 }
 
 header,
-.recipeContainer,
-.recipeBlue, 
+.recipe-container,
+.recipe-blue, 
 footer {
     background-color: #b1e2b4;
 }
@@ -381,8 +382,8 @@ nav ul li a:visited {
     color: #fa9757;
 }
 
-#recipeSubmit,
-.deleteButton {
+#recipe-submit,
+.delete-button {
     background-color: #bdbdbd;
 }
 

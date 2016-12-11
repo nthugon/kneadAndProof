@@ -394,6 +394,10 @@ input[type=text]:focus {
 
 .equation,
 table {
+    background-color: white;
+}
+
+.table-mute {
     background-color: #f5f5f5;
 }
 

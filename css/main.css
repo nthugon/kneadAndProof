@@ -59,6 +59,12 @@ th {
     clear: both;
 }
 
+input[type="text"] {
+   -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+
 
 
 /*************************
@@ -233,6 +239,7 @@ RECIPE CONVERTER
     position: relative;
     left: 50%;
     border-radius: 15px;
+    padding: 0;
     border: none;
 }
 
